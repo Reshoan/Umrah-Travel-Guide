@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00B98E;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #1e1e1e;
+    margin-top: 20px;
+}
+
+.places {
+    position: relative;
+    margin-top: 30px;
+}
+
+.place {
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    margin-bottom: 20px;
+    text-align: left;
+    animation: float 3s ease-in-out infinite;
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Border to enhance glass effect */
+}
+
+/* Zigzag layout for cards */
+.place:nth-child(odd) {
+    float: left;
+    clear: left;
+}
+
+.place:nth-child(even) {
+    float: right;
+    clear: right;
+}
+
+.place img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.place h2 {
+    color: #333;
+    margin-top: 15px;
+}
+
+.place p {
+    color: #666;
+    font-size: 14px;
+}
+
+.navigation {
+    clear: both; /* Clear floats */
+    margin-top: 30px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 18px;
+    background: rgba(230, 230, 250, 0.7); /* Lavender background with transparency */
+    padding: 10px 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    transition: background 0.3s ease;
+}
+
+.navigation a:hover {
+    color: #2980b9;
+    background: rgba(230, 230, 250, 1); /* Solid lavender on hover */
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

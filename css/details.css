@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00B98E;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2b3535;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center; /* Center the content */
+}
+
+h1 {
+    font-size: 4.5rem;
+    color: #c9d5e1;
+    margin-bottom: 50px;
+    text-decoration: underline; /* Add underline */
+}
+
+h2 {
+    color: #e1e8ed; 
+    text-align: center;/* Change this color as needed */
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.introduction {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #f6f2f2;
+
+
+
+    
+}
+
+.tips {
+    margin-bottom: 30px;
+}
+
+.tips ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left; /* Align tips to the left */
+}
+
+.tips li {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #efe9e9;
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.navigation a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.navigation a:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .introduction {
+        font-size: 1rem;
+    }
+
+    .tips li {
+        font-size: 0.9rem;
+    }
+
+    .navigation a {
+        font-size: 0.9rem;
+    padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .introduction {
+        font-size: 0.95rem;
+    }
+
+    .tips li {
+        font-size: 0.85rem;
+    }
+
+    .navigation a {
+        font-size: 0.85rem;
+        padding: 6px 12px;
+    }
+}
