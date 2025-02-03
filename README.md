@@ -19,7 +19,7 @@ The Umrah Guide System is a comprehensive application that provides:
 - Step-by-step guidance for performing Umrah rituals.
 - Real-time updates on prayer times, crowd levels, and weather conditions.
 - Maps and navigation for holy sites in Makkah and Madinah.
-- Multilingual support for pilgrims from diverse backgrounds.
+
 - Educational resources about the history and significance of Umrah.
 
 This project aims to simplify the Umrah journey for pilgrims by leveraging technology to provide accurate and reliable information.
@@ -30,7 +30,7 @@ This project aims to simplify the Umrah journey for pilgrims by leveraging techn
 - **Step-by-Step Umrah Guide**: Detailed instructions for each ritual, including Ihram, Tawaf, Sa'i, and more.
 - **Prayer Times**: Accurate prayer timings based on the user's location.
 - **Interactive Maps**: Navigate through Masjid al-Haram, Masjid an-Nabawi, and other holy sites.
-- **Multilingual Support**: Available in multiple languages (e.g., English, Arabic, Urdu, etc.).
+
 - **Offline Mode**: Access essential information without an internet connection.
 - **Emergency Contacts**: Quick access to local emergency services and consulates.
 - **Educational Content**: Articles and videos about the history and significance of Umrah.
